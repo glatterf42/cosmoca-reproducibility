@@ -5,7 +5,6 @@ Trying to create a zoom-in simulation of a specific halo from https://virgodb.du
 
 ## ICs 
 
-
 - MusIC-panphasia: [54a88338aaa4afc5e4ba2b07b633372994d3b5d4](https://github.com/glatterf42/music-panphasia/tree/54a88338aaa4afc5e4ba2b07b633372994d3b5d4)
 - no compile-time parameters
 - `auriga_6_ics.conf` 
