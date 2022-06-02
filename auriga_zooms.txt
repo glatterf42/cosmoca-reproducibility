@@ -1,0 +1,4 @@
+#These commands (among others) will set up and run zoom simulations like we did for Auriga6
+git checkout 94e73ee944d84782601c87e490b7fb96420bb68f 
+./configure --with-gsl=\$(gsl-config --prefix) --enable-fof --with-metis=/opt/sw/spack-0.12.1/opt/spack/linux-centos7-x86_64/gcc-9.1.0/metis-5.1.0-gvmpssik7izg6ds4gdioiyq7ajvcxnvh --enable-compiler-warnings=yes --with-numa --with-tbbmalloc --enable-mpi-mesh-gravity
+../swift --cosmology --self-gravity --fof --limiter --threads=8 Auriga6_halo7_8_10.yml
