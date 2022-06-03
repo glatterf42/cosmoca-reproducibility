@@ -15,7 +15,7 @@ Trying to create a zoom-in simulation of a specific halo from https://virgodb.du
 - Swift version: [d7e001621e4de4a277407179ec2137037d1f4927](https://gitlab.cosma.dur.ac.uk/swift/swiftsim/-/tree/d7e001621e4de4a277407179ec2137037d1f4927)
 - configure: `./configure --enable-fof --enable-compiler-warnings=yes --enable-stand-alone-fof --with-numa`
 - execute: `./swift  --cosmology --self-gravity --fof --limiter --threads=8  Auriga6_halo7_8_10.yml`
-- output times: auriga_zoom_snap_times.txt
+- output times: `auriga_zoom_snap_times.txt`
 
 
 ## Simulation-Runs (levelmin, levelmin_TF, levelmax)

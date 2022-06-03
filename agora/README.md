@@ -17,5 +17,5 @@ Created with musIC-panphasia,
 - version: [94e73ee944d84782601c87e490b7fb96420bb68f](https://gitlab.cosma.dur.ac.uk/swift/swiftsim/-/tree/94e73ee944d84782601c87e490b7fb96420bb68f)
 - configure: `./configure --with-gsl=$(gsl-config --prefix) --enable-fof --with-metis=/opt/sw/spack-0.12.1/opt/spack/linux-centos7-x86_64/gcc-9.1.0/metis-5.1.0-gvmpssik7izg6ds4gdioiyq7ajvcxnvh --enable-compiler-warnings=yes --with-numa --with-tbbmalloc --enable-mpi-mesh-gravity`
 - execute: `mpirun -np 8 /gpfs/data/fs71636/fglatter/swiftsim/examples/swift_mpi --cosmology --self-gravity --fof --limiter --threads=24 --pin /gpfs/data/fs71636/fglatter/swiftsim/examples/agora/1024/agora_1024.yml`
-- output times: snap_times_agora1024.txt
-- example job script: agora_job.sh
+- output times: `snap_times_agora1024.txt`
+- example job script: `agora_job.sh`
