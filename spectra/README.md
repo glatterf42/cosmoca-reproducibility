@@ -1,6 +1,6 @@
 # Spectra
 
-We use tools developed by Oliver Hahn to calculate the power and cross spectra of our simulations. We expand these tools by adding output formats 3, 4, and 5 compatible with Swift, monofonic-experimental, and Gadget-4, respectively. Note that these formats are not cleaned up yet, i.e. monofonic-experimental just expands Swift rather than deleting HDF5 attributes and keys that are not needed anymore.
+We use tools developed by Oliver Hahn to calculate the power and cross spectra of our simulations. We expand these tools by adding output formats 3, 4, and 5 compatible with Swift, monofonic-experimental, and Gadget-4, respectively. Note that these formats are not cleaned up yet, i.e. monofonic-experimental just expands Swift rather than deleting HDF5 attributes and keys that are not needed anymore. 
 
 
 ## Code

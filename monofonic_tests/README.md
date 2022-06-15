@@ -20,3 +20,5 @@ To change the Daubechies wavelet in question, go to line 146 of /src/plugins/ran
 - execute: `/gpfs/data/fs71636/fglatter/swiftsim/examples/swift --cosmology --self-gravity --fof --threads=$SLURM_NPROCS /gpfs/data/fs71636/fglatter/swiftsim/monofonic_tests/output/shannon_512_100/shannon_512_100_param.yml`
 - output times: `monofonic_snap_times.txt`
 - example job file: `shannon_job.sh`
+- restart via adding: `--restart`
+- note that the number of restart files must equal the number of nodes (mpi tasks used) (line 910 of main.c)
