@@ -2,6 +2,8 @@
 
 Resimulating the AGORA box (https://arxiv.org/abs/1308.2669) with 1024^3 particles. See also: https://cosmicweb.astro.univie.ac.at/simulation/AGORA_512 for IC setup and snapshot times (though they are here as well).
 
+Obviously, the acronym resolves as Assembling Galaxies of Resolved Anatomy (AGORA).
+
 
 ## ICs 
 
