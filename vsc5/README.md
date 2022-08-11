@@ -11,7 +11,7 @@ Switching to the VSC 5, we need to load some other/new modules for the compilati
 
 spack load --only package gcc/5i4t2bo #11.2.0
 
-spack load --only package openmpi/rtp2q2k #4.1.3
+spack load --only package openmpi/2k4wn7u #4.1.4 works at least for Gadget-4 after 4.1.3 has been deleted
 
 spack load --only package fftw/v3g4kha #3.3.10
 
